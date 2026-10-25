@@ -1,0 +1,13 @@
+Algoritmo ejercicio4
+	Definir a, b Como Real
+	Definir sumEj, resEj, divEj, multEj Como Real
+	Leer a, b
+	sumEj<- (a + b)
+	resEj<- (a - b)
+	multEj<- (a * b)
+	divEj<- (a / b)
+	Escribir "suma = " sumEj
+	Escribir "resta = " resEj
+	Escribir "multiplicación = " multEj
+	Escribir "división = " divEj
+FinAlgoritmo

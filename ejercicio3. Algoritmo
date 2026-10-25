@@ -1,0 +1,8 @@
+Algoritmo ejercicio3
+	Definir hipotenusa Como Real
+	Definir aCateto, bCateto Como Real
+	Leer aCateto, bCateto
+	hipotenusa<- raiz [(aCateto * aCateto) + (bCateto * bCateto)]
+	Escribir hipotenusa
+
+FinAlgoritmo

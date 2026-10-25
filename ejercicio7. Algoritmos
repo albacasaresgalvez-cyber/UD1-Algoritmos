@@ -1,0 +1,8 @@
+Algoritmo ejercicio7
+	Definir minutos, horas, resto Como Entero
+    Escribir "Introduce la cantidad de minutos:"
+    Leer minutos
+    horas <- trunc(minutos / 60)
+    resto <- minutos MOD 60
+    Escribir minutos, " minutos son ", horas, " horas y ", resto, " minutos"
+FinAlgoritmo

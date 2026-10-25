@@ -1,0 +1,7 @@
+Algoritmo ejercicio6
+	Definir n1, n2, n3, media Como Real
+    Escribir "Introduce tres números:"
+    Leer n1, n2, n3
+    media <- (n1 + n2 + n3) / 3
+    Escribir "La media es: ", media
+FinAlgoritmo

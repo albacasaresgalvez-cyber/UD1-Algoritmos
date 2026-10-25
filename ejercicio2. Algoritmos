@@ -1,0 +1,10 @@
+Algoritmo ejercicio2
+	Definir b, h Como Real
+	Definir aRectangulo, pRectangulo Como Real
+	Leer b, h
+	aRectangulo<- (b * h)
+	pRectangulo<- (b + b + h + h)
+	Escribir aRectangulo
+	Escribir pRectangulo
+	
+FinAlgoritmo

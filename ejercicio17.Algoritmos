@@ -1,0 +1,19 @@
+Algoritmo ejercicio17
+	Definir H, M, S, Tsegundos, i Como Entero
+	Escribir "Ingrse la hora, minutos y segundos actuales"
+	Leer H, M, S
+	Escribir "Duración en segundos"
+	Leer Tsegundos
+	Para i<- 1 Hasta Tsegundos Hacer
+		S<- S+ 1
+		Si S = 60 Entonces
+			M<- M + 1
+			S<- 0
+			Si M = 60 Entonces
+				H<- H + 1
+				M <- 0
+			FinSi
+		FinSi
+	Fin Para
+    Escribir "La hora de llegada es: " H " horas ", M " minutos ", S " segundos"
+FinAlgoritmo

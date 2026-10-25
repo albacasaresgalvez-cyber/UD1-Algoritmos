@@ -1,0 +1,9 @@
+Algoritmo ejercicio9
+	Definir compra, descuento, pagar Como Real
+    Escribir "Introduce el total de la compra:"
+    Leer compra
+    descuento <- compra * 0.15
+    pagar <- compra - descuento
+    Escribir "Descuento: ", descuento
+    Escribir "Total a pagar: ", pagar
+FinAlgoritmo

@@ -1,0 +1,9 @@
+Algoritmo ejercicio12
+	Definir x1, y1, x2, y2, distancia Como Real
+    Escribir "Introduce x1 e y1:"
+    Leer x1, y1
+    Escribir "Introduce x2 e y2:"
+    Leer x2, y2
+    distancia <- raiz(((x2 - x1) ^ 2) + ((y2 - y1) ^ 2))
+    Escribir "La distancia entre los puntos es: ", distancia
+FinAlgoritmo

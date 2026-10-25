@@ -1,0 +1,7 @@
+Algoritmo  ejercicio1
+	Definir nombreOpcion Como Caracter
+	 Escribir "¿Cual es su nombre?"
+	 Leer nombreOpcion
+	 Escribir "Hola " nombreOpcion
+	
+FinAlgoritmo

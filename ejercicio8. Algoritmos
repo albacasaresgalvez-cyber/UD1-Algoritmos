@@ -1,0 +1,11 @@
+Algoritmo ejercicio8
+	Definir sueldoBase, venta1, venta2, venta3, comisiones, total Como Real
+    Escribir "Introduce el sueldo base:"
+    Leer sueldoBase
+    Escribir "Introduce el importe de las tres ventas:"
+    Leer venta1, venta2, venta3
+    comisiones <- (venta1 + venta2 + venta3) * 0.10
+    total <- sueldoBase + comisiones
+    Escribir "Comisiones: ", comisiones
+    Escribir "Total del mes: ", total
+FinAlgoritmo
